@@ -63,7 +63,7 @@ require 'pika_api'
 
 client = PikaApi::Client.new('sk-he2jdus1cbz1dpt4mktgjyvx')
 
-File.open("ruby.png", "w") do |file|
+File.open("og.png", "w") do |file|
   response = client.generate_image_from_template('open-graph-image-1', {'title': 'From ruby sdk'}, 'binary')
   file.binmode
   file.write(response)
