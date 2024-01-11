@@ -5,7 +5,7 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'pika_api'
+gem 'pika_sdk'
 ```
 
 And then execute:
@@ -14,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install pika_api
+    $ gem install pika_sdk
 
 ## Usage
 
@@ -23,7 +23,7 @@ Or install it yourself as:
 Initialise a client
 
 ```ruby
-require 'pika_api'
+require 'pika_sdk'
 
 client = PikaApi::Client.new('sk-he2jdus1cbz1dpt4mktgjyvx')
 ```
@@ -42,7 +42,7 @@ puts response['data']['base64']
 `Base64` response format.
 
 ```ruby
-require 'pika_api'
+require 'pika_sdk'
 
 client = PikaApi::Client.new('sk-he2jdus1cbz1dpt4mktgjyvx')
 
@@ -59,7 +59,7 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABLAAAAJ2CAYAAABPQHtcAAAAAXNSR0IArs
 `Binary` response format.
 
 ```ruby
-require 'pika_api'
+require 'pika_sdk'
 
 client = PikaApi::Client.new('sk-he2jdus1cbz1dpt4mktgjyvx')
 
@@ -78,7 +78,7 @@ Use this function to generate an image. It takes in 3 arguments
 
 | argument | required | description |
 |----------|----------|-------------|
-|`template_id` | Yes | ID of the template (`open-graph-image-1`, `tweet-image-1`, `beautify-screenshot-1`) |
+|`template_id` | Yes | ID of the template (`open-graph-image-1`, `tweet-image-1`, `beautify-screenshot-1`, ...) |
 |`modifications` | Yes | Modifications for the selected template. |
 |`response_format` | No | `base64` or `binary` (Defaults to `base64`). |
 

@@ -1,5 +1,5 @@
-require 'pika_api/version'
-require 'pika_api/client'
+require 'pika_sdk/version'
+require 'pika_sdk/client'
 
 module PikaApi
   class Error < StandardError; end

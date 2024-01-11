@@ -1,10 +1,10 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "pika_api/version"
+require "pika_sdk/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "pika_api"
+  spec.name          = "pika_sdk"
   spec.version       = PikaApi::VERSION
   spec.authors       = ["rishimohan"]
   spec.email         = ["iamrishi.ms@gmail.com"]
