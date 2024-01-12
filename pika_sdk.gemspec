@@ -5,7 +5,7 @@ require "pika_sdk/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "pika_sdk"
-  spec.version       = PikaApi::VERSION
+  spec.version       = PikaSdk::VERSION
   spec.authors       = ["rishimohan"]
   spec.email         = ["iamrishi.ms@gmail.com"]
 

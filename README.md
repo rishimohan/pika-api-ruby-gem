@@ -25,7 +25,7 @@ Initialise a client
 ```ruby
 require 'pika_sdk'
 
-client = PikaApi::Client.new('sk-he2jdus1cbz1dpt4mktgjyvx')
+client = PikaSdk::Client.new('sk-he2jdus1cbz1dpt4mktgjyvx')
 ```
 
 If you don't have your API key, get one from [Pika.style](https://pika.style).
@@ -44,7 +44,7 @@ puts response['data']['base64']
 ```ruby
 require 'pika_sdk'
 
-client = PikaApi::Client.new('sk-he2jdus1cbz1dpt4mktgjyvx')
+client = PikaSdk::Client.new('sk-he2jdus1cbz1dpt4mktgjyvx')
 
 response = client.generate_image_from_template('open-graph-image-1', {'title': 'From ruby sdk'}, 'base64')
 puts response['data']['base64']
@@ -61,7 +61,7 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABLAAAAJ2CAYAAABPQHtcAAAAAXNSR0IArs
 ```ruby
 require 'pika_sdk'
 
-client = PikaApi::Client.new('sk-he2jdus1cbz1dpt4mktgjyvx')
+client = PikaSdk::Client.new('sk-he2jdus1cbz1dpt4mktgjyvx')
 
 File.open("og.png", "w") do |file|
   response = client.generate_image_from_template('open-graph-image-1', {'title': 'From ruby sdk'}, 'binary')

@@ -1,3 +1,3 @@
-module PikaApi
-  VERSION = "0.1.0"
+module PikaSdk
+  VERSION = "0.2.0"
 end

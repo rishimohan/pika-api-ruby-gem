@@ -3,7 +3,7 @@ require "json"
 require "net/http"
 require "httparty"
 
-module PikaApi
+module PikaSdk
   class Client
     def initialize(api_key)
       @api_key = api_key
