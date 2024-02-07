@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Pika API sdk for ruby"
   spec.description   = "Pika API sdk for ruby"
-  spec.homepage      = "https://github.com/rishimohan/pika-api-ruby-gem"
+  spec.homepage      = "https://pika.style/image-generation-api"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
