@@ -1,5 +1,7 @@
 # Pika API Ruby Gem
 
+View on Rubygems: [rubygems.org/gems/pika_sdk](https://rubygems.org/gems/pika_sdk)
+
 ## Installation
 
 Add this line to your application's Gemfile:
